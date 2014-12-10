@@ -1,0 +1,10 @@
+framework module Realm {
+  umbrella header "Realm.h"
+
+  export *
+  module * { export * }
+}
+
+module Realm.Swift {
+    header "Realm-Swift.h"
+}
